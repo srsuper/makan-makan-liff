@@ -1,0 +1,36 @@
+.container {
+    margin: 20px auto;
+    width: 740px;
+}
+
+.head {
+    margin-bottom: 43px;
+}
+
+.jumlah {
+    font-size: medium;
+    font-weight: bold;
+    padding: 12px;
+}
+
+#minuman {
+    margin-top: 37px;
+}
+
+.tambah, .kurang {
+    border-radius: 12px;
+}
+
+.menu {
+    border-bottom: 2px solid gray;
+    padding-bottom: 18px;
+}
+
+.bill {
+    margin-top:8px;
+}
+
+#judul-app {
+    font-family: 'Langar', cursive;
+    font-size: 72px;
+}
