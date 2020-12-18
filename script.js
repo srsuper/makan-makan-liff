@@ -4,13 +4,18 @@ const tambah = document.querySelectorAll('.tambah');
 const kurang = document.querySelectorAll('.kurang');
 // var parent = tambah.parentNode.getAttribute("id");
 
+let makanan = {"kwetiau":0}
 
 tambah.forEach(function(tbh){
     tbh.addEventListener('click',function(){
-        id = this.parentNode.getAttribute("id");
-        console.log(id)
-        let jumlah = document.querySelector(`.${id}`)
-        jumlah.textContent = x++
+        x = 0
+        kwetiau = Object.keys(makanan)[0]
+        id = this.parentNode.getAttribute(`${kwetiau}`)
+        let jumlah = document.querySelector(`${kwetiau}`)
+        // jumlah.textContent = x++
+        // console.log(makanan.kwetiau++)
+        jumlah.textContent = makanan.kwetiau++
+        // console.log(makanan.kwetiau)
     })
 })
 
